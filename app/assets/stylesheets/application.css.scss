@@ -32,6 +32,28 @@ h1, h2, h3 {
     border: none;
 }
 
+.navbar-default .navbar-brand {
+    //Making navbar home page link text white
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    //Making navbar home page hover link text white
+    color: white;
+    opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a {
+    //Making navbar about page link text white
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    //Making navbar about page hover link text white
+    color: white;
+    opacity: 0.75;
+}
+
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
